@@ -1,0 +1,117 @@
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px ;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
+#menu{
+  display: flex;
+ background-color: black;
+ justify-content: space-around;
+}
+#funcao{
+  font-family: 'varsity_regular', cursive;
+  font-weight: normal;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  background-image: url(matematica.jpg);
+}
+body{
+  margin: 0;
+}
+@font-face {
+  font-family: "varsity_regular";
+  src: url("varsity_regular.ttf");
+}
+a:link{
+  color: white;
+  text-decoration:none;
+}
+a:visited{
+    color:white;
+    text-decoration:none;
+
+}
+a:hover{
+  color:white;
+  text-decoration:none;
+
+}
+a:active{
+  color:white;
+  text-decoration:none;
+
+}
+p, li{
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  color: black;
+}
+h1, h2, h3{
+  font-family: 'Amatic SC', cursive;
+  text-align:center;
+
+}
+.configuracao{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.aluno{
+  float: right;
+  width: 20%;
+  background-color: black;
+
+}
+.alu{
+  color: white;
+  text-align: center;
+}
+.aluno img{
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 100px;
+  margin-left: 100px;
+  border: solid white 2px;
+
+}
+.corpo{
+  float: left;
+  width: 75%;
+}
+.func{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.video{
+  margin-left: 33%;
+  margin-right: 50%;
+  width: 500px;
+}
+#formula{
+  margin-left: 33%;
+  margin-right: 50%;
+}
+.gif{
+
+}
+#ticket {
+  left: -450px;
+  transition: left 100ms ease-out;
+  position: fixed;
+  top: calc(50% - 26px);
+  width: 500px;
+
+}
+
+#ticket:hover {
+  left: 0;
+}
